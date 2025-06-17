@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 880dd1f8248774449b1e072bc742765a, type: 3}
   m_Name: MVCSettings_Data
   m_EditorClassIdentifier: 
-  settingsFoldout: 5
+  settingsFoldout: 7
   soundEffectsFoldout: 0
   autoCheckForUpdates: 1
   editorValuesUnit: 0
@@ -749,20 +749,20 @@ MonoBehaviour:
     audio:
       outputs: 0
       celerationType: 0
-      startingClip: {fileID: 8300000, guid: b78b8260a3f5b3547b263896f9894493, type: 3}
+      startingClip: {fileID: 0}
       folderName: 
-      lowRPMVolume: 0.334
-      maxRPMDistortion: 0.429
-      overRPMDistortion: 0.091
-      decelLowPassFrequency: 2319
+      lowRPMVolume: 0.5
+      maxRPMDistortion: 0.67
+      overRPMDistortion: 0.33
+      decelLowPassFrequency: 5000
       useAccelLowPass: 0
       accelLowPassFrequency: 22000
       accelLowPassRPMEnd: 1
       useLowPassDamping: 0
       lowPassDamping: 5
       mixerGroups:
-        engine: {fileID: -1284776019752758480, guid: e9ac98fd9b76ddd4cb71e5fce3c02eb0, type: 2}
-        exhaust: {fileID: 2169200352524684375, guid: e9ac98fd9b76ddd4cb71e5fce3c02eb0, type: 2}
+        engine: {fileID: 0}
+        exhaust: {fileID: 0}
   - name: I6NM 3.2L S54B32
     type: 0
     fuelType: 1
@@ -908,11 +908,11 @@ MonoBehaviour:
     inertiaRPM: 1780
     chargerSize: 0.9299
     audio:
-      idleClip: {fileID: 8300000, guid: 6ba0691edc1e54243ba7147afdb832a2, type: 3}
-      activeClip: {fileID: 8300000, guid: f51721146789d3342a15d3babd83570c, type: 3}
-      fuelBlowoutClip: {fileID: 8300000, guid: f05c73d3a1646d241b4799609e03fa30, type: 3}
-      gearBlowoutClip: {fileID: 8300000, guid: 2892fdc4069265f41b179c642340a988, type: 3}
-      revBlowoutClip: {fileID: 8300000, guid: 7c90a06f25750eb4585ed32ef3ea4d7a, type: 3}
+      idleClip: {fileID: 0}
+      activeClip: {fileID: 0}
+      fuelBlowoutClip: {fileID: 0}
+      gearBlowoutClip: {fileID: 0}
+      revBlowoutClip: {fileID: 0}
     compatibleEngineIndexes: 03000000
   tireCompounds:
   - frictionComplexity: 0
