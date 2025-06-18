@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 880dd1f8248774449b1e072bc742765a, type: 3}
   m_Name: MVCSettings_Data
   m_EditorClassIdentifier: 
-  settingsFoldout: 7
+  settingsFoldout: 5
   soundEffectsFoldout: 0
   autoCheckForUpdates: 1
   editorValuesUnit: 0
