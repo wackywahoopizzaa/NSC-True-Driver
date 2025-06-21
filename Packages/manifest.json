@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "com.unity.ai.navigation": "2.0.6",
+    "com.unity.ai.navigation": "2.0.8",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.entities": "1.3.14",
-    "com.unity.ide.rider": "3.0.35",
+    "com.unity.ide.rider": "3.0.36",
     "com.unity.ide.visualstudio": "2.0.23",
     "com.unity.ide.vscode": "1.2.4",
     "com.unity.inputsystem": "1.14.0",
@@ -12,7 +12,7 @@
     "com.unity.test-framework": "1.5.1",
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
-    "com.unity.visualscripting": "1.9.6",
+    "com.unity.visualscripting": "1.9.7",
     "dev.bxbstudio.inputs-manager": "file:D:\\UnityGame\\test car controller pro\\Assets\\BxB Studio\\MVC Installer\\Packages\\dev.bxbstudio.inputs-manager@1.1.16.tgz",
     "dev.bxbstudio.mvc.pro": "file:D:\\UnityGame\\test car controller pro\\Assets\\BxB Studio\\MVC Installer\\Packages\\dev.bxbstudio.mvc.pro@1.4.2-beta.3.tgz",
     "dev.bxbstudio.utilities": "file:D:\\UnityGame\\test car controller pro\\Assets\\BxB Studio\\MVC Installer\\Packages\\dev.bxbstudio.utilities@1.1.10.tgz",
