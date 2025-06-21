@@ -11,7 +11,7 @@ public class AutoTrafficSetController : MonoBehaviour
     public float stopDuration = 6f;
 
     private float timer = 0f;
-    private PhaseState currentState = PhaseState.Stop;
+    public PhaseState currentState = PhaseState.Stop;
 
     void Start()
     {
