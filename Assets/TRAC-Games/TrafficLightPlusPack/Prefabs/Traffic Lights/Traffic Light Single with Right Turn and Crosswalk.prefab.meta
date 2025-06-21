@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f78fff776cd0942629dc04d63d9ae1c4
+labels:
+- Traffic
+- TrafficLight
+- Light
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Traffic Lights/Traffic
+    Light Single with Right Turn and Crosswalk.prefab
+  uploadId: 338292

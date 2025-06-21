@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 51697ab6b030845cb9255bee7edbd55f
+labels:
+- Traffic
+- TrafficLight
+- Light
+timeCreated: 1449269876
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Traffic Lights/Traffic
+    Lights Two Lanes Left.prefab
+  uploadId: 338292

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: dee2d373553e74fe2aa93756576c2ec4
+timeCreated: 1514682988
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Scripts/PhaseState.cs
+  uploadId: 338292

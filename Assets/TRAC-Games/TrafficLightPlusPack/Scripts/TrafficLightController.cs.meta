@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 010c5a50791f64c4e8c0eb764ffa45f7
+timeCreated: 1514682131
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Scripts/TrafficLightController.cs
+  uploadId: 338292

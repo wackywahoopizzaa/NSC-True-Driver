@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4d92edd9c812d48d787cc457d66e1a50
+labels:
+- TrafficLight
+- Traffic
+- Light
+timeCreated: 1449277865
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Parts/Traffic Pole.prefab
+  uploadId: 338292

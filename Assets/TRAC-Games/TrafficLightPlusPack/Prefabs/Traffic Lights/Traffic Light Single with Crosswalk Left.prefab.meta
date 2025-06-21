@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 67e44b7fc0a24479c85e6d452eee4e6b
+labels:
+- Traffic
+- TrafficLight
+- Light
+timeCreated: 1449273817
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Traffic Lights/Traffic
+    Light Single with Crosswalk Left.prefab
+  uploadId: 338292

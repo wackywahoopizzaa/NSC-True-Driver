@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1aa6e7e5e618a43a88f52e8a0191d216
+labels:
+- Traffic
+- TrafficLight
+- Light
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Traffic Lights/Traffic
+    Light Two Lanes Both Directions Right with Crosswalk.prefab
+  uploadId: 338292

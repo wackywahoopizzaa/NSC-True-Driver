@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6f73a886ad8fd403b8b26ba43ac61406
+labels:
+- Traffic
+- StreetLight
+- Light
+- RoadLight
+timeCreated: 1446774846
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51346
+  packageName: Traffic Light Plus Pack
+  packageVersion: 1.3
+  assetPath: Assets/TRAC-Games/TrafficLightPlusPack/Prefabs/Street Lights/StreetLightSingle.prefab
+  uploadId: 338292
