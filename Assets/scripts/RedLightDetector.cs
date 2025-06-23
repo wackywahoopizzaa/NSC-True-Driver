@@ -4,7 +4,7 @@ public class RedLightDetector : MonoBehaviour
 {
     public AutoTrafficSetController autoController; // Reference to automatic traffic light system
     public DetectionLevelManager detectionManager;   // Reference to the penalty UI system
-    public string vehicleTag = "Vehicle";            // Tag for detecting vehicles
+    public string vehicleTag = "Player";            // Tag for detecting vehicles
 
     void OnTriggerEnter(Collider other)
     {
@@ -21,6 +21,7 @@ public class RedLightDetector : MonoBehaviour
             if (detectionManager != null)
             {
                 detectionManager.AddPenalty(20f); // 👈 This raises the detection level
+                Debug.Log("add penalty is working");
             }
             else
             {
