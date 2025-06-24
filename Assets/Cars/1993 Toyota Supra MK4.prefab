@@ -10552,6 +10552,8 @@ GameObject:
   - component: {fileID: 3573654183742729320}
   - component: {fileID: 726983247593467935}
   - component: {fileID: 487313626704221237}
+  - component: {fileID: 2867537206700479633}
+  - component: {fileID: 2235010816688289906}
   m_Layer: 6
   m_Name: 1993 Toyota Supra MK4
   m_TagString: Player
@@ -11461,12 +11463,12 @@ MonoBehaviour:
     vehicle: {fileID: 726983247593467935}
   interior:
     steeringWheel:
-      transform: {fileID: 0}
+      transform: {fileID: 4144077886053189370}
       rotationAxis: 2
       overrideTarget: 0
       startAngle: 0
       targetAngle: 180
-      target: 35
+      target: 42
     rpmNeedle:
       transform: {fileID: 0}
       rotationAxis: 2
@@ -11557,6 +11559,42 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2867537206700479633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504629719399262091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 5.36}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2235010816688289906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504629719399262091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0daeaf90ca05e4a4e8e6aa81ff927c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionManager: {fileID: 0}
+  collisionPenalty: 15
+  cooldownTime: 3
 --- !u!1 &7542716332122571754
 GameObject:
   m_ObjectHideFlags: 0
