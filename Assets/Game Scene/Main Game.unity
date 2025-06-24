@@ -1925,6 +1925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionManager: {fileID: 49460798}
   penaltyAmount: 10
+  cooldownTime: 5
 --- !u!1001 &194207159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1933,70 +1934,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 487313626704221237, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_CenterOfMass.y
-      value: 0.4699283
-      objectReference: {fileID: 0}
-    - target: {fileID: 487313626704221237, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_CenterOfMass.z
-      value: -0.03722725
+    - target: {fileID: 726983247593467935, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
+      propertyPath: interior.steeringWheel.target
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 726983247593467935, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: behaviour.fuelCapacity
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 726983247593467935, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: audioMixers.turbochargerVolume
-      value: 0.90999997
-      objectReference: {fileID: 0}
-    - target: {fileID: 726983247593467935, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: audioMixers.chargersEffectsVolume
-      value: 0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029924143457389340, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.7835083
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029924143457389340, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3151245
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209376045053359389, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.7835083
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209376045053359389, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3151245
-      objectReference: {fileID: 0}
-    - target: {fileID: 1963408469209833638, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2364807
-      objectReference: {fileID: 0}
-    - target: {fileID: 3185483402557877613, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.7913513
-      objectReference: {fileID: 0}
-    - target: {fileID: 3185483402557877613, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2364807
-      objectReference: {fileID: 0}
-    - target: {fileID: 3319767084264076058, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.786242
-      objectReference: {fileID: 0}
-    - target: {fileID: 3319767084264076058, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3151245
-      objectReference: {fileID: 0}
-    - target: {fileID: 3319767084264076058, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.999962
-      objectReference: {fileID: 0}
-    - target: {fileID: 3319767084264076058, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
+      propertyPath: interior.steeringWheel.transform
+      value: 
+      objectReference: {fileID: 1111943097}
+    - target: {fileID: 2235010816688289906, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
+      propertyPath: detectionManager
+      value: 
+      objectReference: {fileID: 49460798}
     - target: {fileID: 3573654183742729320, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2041,65 +1990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1993 Toyota Supra MK4
       objectReference: {fileID: 0}
-    - target: {fileID: 8319788960014699498, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.786242
-      objectReference: {fileID: 0}
-    - target: {fileID: 8319788960014699498, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.999962
-      objectReference: {fileID: 0}
-    - target: {fileID: 8319788960014699498, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8885024387743412683, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.79271823
-      objectReference: {fileID: 0}
-    - target: {fileID: 8885024387743412683, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.31327844
-      objectReference: {fileID: 0}
-    - target: {fileID: 8885024387743412683, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2364807
-      objectReference: {fileID: 0}
-    - target: {fileID: 8885024387743412683, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8885024387743412683, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163847348743456302, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.79271823
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163847348743456302, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.31327844
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163847348743456302, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2364807
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163847348743456302, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163847348743456302, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7504629719399262091, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 347183273}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
 --- !u!1 &196503059
 GameObject:
@@ -3551,32 +3445,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344929909}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &347183269 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7504629719399262091, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-  m_PrefabInstance: {fileID: 194207159}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &347183273
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347183269}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 5.36}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &363043311
 GameObject:
   m_ObjectHideFlags: 0
@@ -12681,6 +12549,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111873706}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1111943097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4144077886053189370, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
+  m_PrefabInstance: {fileID: 194207159}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1112160517
 GameObject:
   m_ObjectHideFlags: 0
@@ -16801,6 +16674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionManager: {fileID: 49460798}
   penaltyAmount: 10
+  cooldownTime: 5
 --- !u!65 &1454701363
 BoxCollider:
   m_ObjectHideFlags: 0
