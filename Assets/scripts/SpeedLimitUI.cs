@@ -5,27 +5,26 @@ public class SpeedLimitUI : MonoBehaviour
 {
     public TextMeshProUGUI speedLimitText;
 
-    private SpeedLimitDetector currentDetector;
+    private StandaloneSpeedLimitDetector detector;
 
-  void Update()
-{
-    GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
-
-    if (playerVehicle != null)
+    void Start()
     {
-        SpeedLimitDetector detector = playerVehicle.GetComponentInChildren<SpeedLimitDetector>();
-        if (detector != null)
+        detector = FindObjectOfType<StandaloneSpeedLimitDetector>();
+        if (detector == null)
         {
-            if (detector != currentDetector)
-            {
-                currentDetector = detector;
-            }
-            speedLimitText.text = "Speed Limit: " + currentDetector.GetCurrentSpeedLimit() + " km/h";
-            return;
+            Debug.LogWarning("SpeedLimitUI: No StandaloneSpeedLimitDetector found in the scene.");
         }
     }
 
-    speedLimitText.text = "Speed Limit: N/A";
-}
-
+    void Update()
+    {
+        if (detector != null)
+        {
+            speedLimitText.text = "Speed Limit: " + detector.GetCurrentSpeedLimit() + " km/h";
+        }
+        else
+        {
+            speedLimitText.text = "Speed Limit: N/A";
+        }
+    }
 }

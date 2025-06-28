@@ -2007,10 +2007,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7504629719399262091, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1154528720}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
 --- !u!1 &196503059
 GameObject:
@@ -6277,6 +6274,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578797313}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &579284050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579284052}
+  - component: {fileID: 579284051}
+  m_Layer: 0
+  m_Name: SpeedLimitDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &579284051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579284050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9760fdb0c9124f409ed9497005fbcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpeedLimit: 80
+  detectionManager: {fileID: 49460798}
+  checkInterval: 0.5
+  penaltyAmount: 10
+--- !u!4 &579284052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579284050}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.04917, y: 2.7055125, z: 64.824646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586269295
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,28 +6457,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 4.37}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &597964695 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1052164223954404577, guid: 0cb8b0497dd0b794a952c9dbd9db638d, type: 3}
-  m_PrefabInstance: {fileID: 615230170}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &597964698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597964688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab5f8c9ca747154aaa54d7cd47f38bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSpeedLimit: 80
-  detectionManager: {fileID: 49460798}
-  vehicleRigidbody: {fileID: 597964695}
-  checkInterval: 0.5
-  penaltyAmount: 10
 --- !u!1 &609396340
 GameObject:
   m_ObjectHideFlags: 0
@@ -7066,9 +7089,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5763070846289528533, guid: 0cb8b0497dd0b794a952c9dbd9db638d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 597964693}
-    - targetCorrespondingSourceObject: {fileID: 5763070846289528533, guid: 0cb8b0497dd0b794a952c9dbd9db638d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 597964698}
   m_SourcePrefab: {fileID: 100100000, guid: 0cb8b0497dd0b794a952c9dbd9db638d, type: 3}
 --- !u!1 &633394031
 GameObject:
@@ -13172,33 +13192,6 @@ Transform:
   - {fileID: 1814278288}
   m_Father: {fileID: 1604951147}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1154528714 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7504629719399262091, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-  m_PrefabInstance: {fileID: 194207159}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1154528715 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 487313626704221237, guid: d97a5972c93c8f74b9870d507d23d994, type: 3}
-  m_PrefabInstance: {fileID: 194207159}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1154528720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154528714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab5f8c9ca747154aaa54d7cd47f38bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSpeedLimit: 80
-  detectionManager: {fileID: 49460798}
-  vehicleRigidbody: {fileID: 1154528715}
-  checkInterval: 0.5
-  penaltyAmount: 10
 --- !u!1 &1167543975
 GameObject:
   m_ObjectHideFlags: 0
@@ -17867,14 +17860,14 @@ RectTransform:
   m_GameObject: {fileID: 1541853871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1407865357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1022.1428, y: -389.99997}
+  m_AnchoredPosition: {x: 998.5714, y: 128.57138}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541853873
@@ -23748,3 +23741,4 @@ SceneRoots:
   - {fileID: 163765525}
   - {fileID: 1454701364}
   - {fileID: 359164049}
+  - {fileID: 579284052}
