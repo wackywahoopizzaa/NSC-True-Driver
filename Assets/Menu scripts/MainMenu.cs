@@ -5,8 +5,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        // Replace "GameScene" with your actual gameplay scene name
-        SceneManager.LoadScene("Main Game");
+        PlayerPrefs.SetString("Main Game", "GameScene"); // Set your target scene name
+        SceneManager.LoadScene("Loading Screen");
     }
 
     public void QuitGame()
