@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        PlayerPrefs.SetString("Main Game", "GameScene"); // Set your target scene name
+        PlayerPrefs.SetString("MainLobby", "MainLobby"); // Set your target scene name
         SceneManager.LoadScene("Loading Screen");
     }
 

@@ -16,7 +16,7 @@ public class LoadingScreen : MonoBehaviour
 
     IEnumerator LoadAsync()
     {
-        string targetScene = PlayerPrefs.GetString("TargetScene", "Main Game"); // Default to GameScene
+        string targetScene = PlayerPrefs.GetString("TargetScene", "MainLobby"); // Default to GameScene
         AsyncOperation operation = SceneManager.LoadSceneAsync(targetScene);
 
         while (!operation.isDone)

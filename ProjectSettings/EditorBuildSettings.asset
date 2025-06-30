@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Game Scene/Loading Screen.unity
     guid: 3fd715df1e570aa49beb2b2c7ce464cc
   - enabled: 1
+    path: Assets/Game Scene/MainLobby.unity
+    guid: 5652f6f9107447c478c8994fe9476d60
+  - enabled: 1
+    path: Assets/Game Scene/Garage.unity
+    guid: be815f47d51fd5541a83c541c5c807e8
+  - enabled: 1
     path: Assets/Game Scene/Main Game.unity
     guid: 92c4c829c830de64e8f7edca16fb8873
   m_configObjects:
