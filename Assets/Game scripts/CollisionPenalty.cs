@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CollisionPenalty : MonoBehaviour
 {
-    public DetectionLevelManager detectionManager; // Assign in Inspector
+    public DetectionLevelManager detectionManager; 
     public float collisionPenalty = 15f;           // Amount to increase detection bar
     public float cooldownTime = 3f;                // Seconds to wait before next penalty
 

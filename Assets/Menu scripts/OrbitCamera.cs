@@ -14,7 +14,7 @@ public class OrbitCamera : MonoBehaviour
     public float distanceMax = 10f;
 
     private float x = 0.0f;
-    private float y = 30.0f; // <-- Start with higher default camera angle
+    private float y = 30.0f; //high camera angle
 
     void Start()
     {

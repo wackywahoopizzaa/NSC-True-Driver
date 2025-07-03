@@ -11,7 +11,7 @@ public class CashManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // persists across scenes
+            DontDestroyOnLoad(gameObject); // usable across scenes
         }
         else
         {

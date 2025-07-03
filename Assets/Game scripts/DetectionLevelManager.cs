@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class DetectionLevelManager : MonoBehaviour
 {
-    public Image detectionBar;      // UI slider that shows detection level
+    public Image detectionBar;      
     public float maxLevel = 100f;    // Max cap
     private float targetLevel = 0f;  // Current penalty level
 

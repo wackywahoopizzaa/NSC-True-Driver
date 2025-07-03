@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        PlayerPrefs.SetString("MainLobby", "MainLobby"); // Set your target scene name
+        PlayerPrefs.SetString("MainLobby", "MainLobby");
         SceneManager.LoadScene("Loading Screen");
     }
 
@@ -14,7 +14,6 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quitting game...");
         Application.Quit();
 
-        // NOTE: This won't quit the game in the Unity Editor
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif

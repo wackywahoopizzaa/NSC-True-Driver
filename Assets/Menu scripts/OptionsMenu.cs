@@ -11,7 +11,6 @@ public class OptionsMenu : MonoBehaviour
 
     void Start()
     {
-        // Set slider and dropdown to current settings
         volumeSlider.value = PlayerPrefs.GetFloat("Volume", 1f);
         AudioListener.volume = volumeSlider.value;
 
@@ -20,7 +19,6 @@ public class OptionsMenu : MonoBehaviour
         graphicsDropdown.value = QualitySettings.GetQualityLevel();
         graphicsDropdown.RefreshShownValue();
 
-        // Add listeners
         volumeSlider.onValueChanged.AddListener(SetVolume);
         graphicsDropdown.onValueChanged.AddListener(SetGraphics);
     }

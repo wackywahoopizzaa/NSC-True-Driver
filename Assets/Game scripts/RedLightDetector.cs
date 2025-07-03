@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class RedLightDetector : MonoBehaviour
 {
-    public AutoTrafficSetController autoController; // Reference to automatic traffic light system
-    public DetectionLevelManager detectionManager;   // Reference to the penalty UI system
-    public string vehicleTag = "Player";            // Tag for detecting vehicles
+    public AutoTrafficSetController autoController; 
+    public DetectionLevelManager detectionManager;   
+    public string vehicleTag = "Player";            
 
     void OnTriggerEnter(Collider other)
     {
@@ -20,7 +20,7 @@ public class RedLightDetector : MonoBehaviour
 
             if (detectionManager != null)
             {
-                detectionManager.AddPenalty(20f); // 👈 This raises the detection level
+                detectionManager.AddPenalty(20f); 
                 Debug.Log("add penalty is working");
             }
             else

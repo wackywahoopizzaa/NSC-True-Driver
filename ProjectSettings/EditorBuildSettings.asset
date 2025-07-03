@@ -19,7 +19,10 @@ EditorBuildSettings:
     guid: 5652f6f9107447c478c8994fe9476d60
   - enabled: 1
     path: Assets/Game Scene/Garage.unity
-    guid: be815f47d51fd5541a83c541c5c807e8
+    guid: bcbcb294f52f7194886c7fa223d9219b
+  - enabled: 1
+    path: Assets/Game Scene/CarDealerShip.unity
+    guid: be6bf7e4e625e7c49a851216d202bec7
   - enabled: 1
     path: Assets/Game Scene/Main Game.unity
     guid: 92c4c829c830de64e8f7edca16fb8873
