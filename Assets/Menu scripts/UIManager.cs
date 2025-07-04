@@ -18,7 +18,11 @@ public class UIManager : MonoBehaviour
     }
     void Start()
     {
-        UpdateCashUI(CashManager.Instance.currentCash);
+    if (CashManager.Instance != null)
+        {
+            UpdateCashUI(CashManager.Instance.currentCash);
+        }
     }
+
 
 }
