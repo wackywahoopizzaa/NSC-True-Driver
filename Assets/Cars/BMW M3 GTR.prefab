@@ -8314,7 +8314,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8336093778791581558}
+  - {fileID: 5940337478734075908}
   m_Father: {fileID: 4851689537717626133}
   m_LocalEulerAnglesHint: {x: 0, y: -35, z: 0}
 --- !u!1 &4313681695386132274
@@ -10398,12 +10398,12 @@ GameObject:
   - component: {fileID: 8275277901366565856}
   - component: {fileID: 1052164223954404577}
   m_Layer: 6
-  m_Name: 2005 BMW M3 GTR E46 model only
+  m_Name: BMW M3 GTR
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8275277901366565856
 Transform:
   m_ObjectHideFlags: 0
@@ -16714,7 +16714,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75035d5e338283a4f92c982e5f071087, type: 3}
---- !u!4 &8336093778791581558 stripped
+--- !u!4 &5940337478734075908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2440828224831561585, guid: 75035d5e338283a4f92c982e5f071087, type: 3}
   m_PrefabInstance: {fileID: 8336093778791581557}

@@ -27039,7 +27039,7 @@ GameObject:
   - component: {fileID: 8275277900852506452}
   - component: {fileID: 1052164223435632725}
   m_Layer: 6
-  m_Name: 2005 BMW M3 GTR E46 model only
+  m_Name: 'BMW M3 GTR '
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32297,7 +32297,7 @@ GameObject:
   - component: {fileID: 3573654183708958874}
   - component: {fileID: 487313626671405255}
   m_Layer: 6
-  m_Name: 1993 Toyota Supra MK4 model only
+  m_Name: Toyota Supra MK4
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -9944,7 +9944,7 @@ GameObject:
   - component: {fileID: 1052164223954404577}
   - component: {fileID: 364059832101841033}
   m_Layer: 6
-  m_Name: 2005 BMW M3 GTR E46
+  m_Name: 2005 BMW M3 GTR E46 drivable
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

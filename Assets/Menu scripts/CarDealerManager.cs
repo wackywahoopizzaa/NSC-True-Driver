@@ -35,69 +35,57 @@ public class CarDealerManager : MonoBehaviour
 
     public void ShowCar(int index)
     {
-    if (index < 0 || index >= availableCars.Count || index >= carDisplayPoints.Count)
+        if (index < 0 || index >= availableCars.Count || index >= carDisplayPoints.Count)
+        {
+            Debug.LogError("ShowCar: Index out of range. Index: " + index);
+            return;
+        }
+
+        // Hide all cars
+        foreach (GameObject car in carDisplayPoints)
+            car.SetActive(false);
+
+        // Show selected
+        carDisplayPoints[index].SetActive(true);
+        currentIndex = index;
+
+        CarData carData = availableCars[index];
+        carNameText.text = carData.carName;
+        priceText.text = "$" + carData.price;
+
+        bool owned = PlayerPrefs.GetInt("CarOwned_" + carData.carID, 0) == 1;
+        buyButton.SetActive(!owned);
+    }
+
+
+
+
+    public void NextCar()
     {
-        Debug.LogError("ShowCar: Index out of range. Index: " + index);
-        return;
-    }
-
-    // Hide all cars
-    foreach (GameObject car in carDisplayPoints)
-        car.SetActive(false);
-
-    // Show selected
-    carDisplayPoints[index].SetActive(true);
-    currentIndex = index;
-
-    CarData carData = availableCars[index];
-    carNameText.text = carData.carName;
-    priceText.text = "$" + carData.price;
-
-    bool owned = PlayerPrefs.GetInt("CarOwned_" + carData.carID, 0) == 1;
-    buyButton.SetActive(!owned);
-    selectButton.SetActive(owned);
-    }
-
-
-
-
-    public void NextCar() {
         currentIndex = (currentIndex + 1) % availableCars.Count;
         ShowCar(currentIndex);
     }
 
-    public void PreviousCar() {
+    public void PreviousCar()
+    {
         currentIndex = (currentIndex - 1 + availableCars.Count) % availableCars.Count;
         ShowCar(currentIndex);
     }
 
     public void BuyCar()
     {
-    CarData car = availableCars[currentIndex];
-
-    if (CashManager.Instance.SpendCash(car.price))
+        CarData car = availableCars[currentIndex];
+        if (CashManager.Instance.SpendCash(car.price))
         {
             PlayerPrefs.SetInt("CarOwned_" + car.carID, 1);
             PlayerPrefs.Save();
 
-            Debug.Log("Car purchased: " + car.carName);
-
-        // Refresh UI (switch Buy → Select)
+            Debug.Log("Car purchased: " + car.carName + " | Saved key: CarOwned_" + car.carID);
             ShowCar(currentIndex);
         }
-    else
+        else
         {
             Debug.LogWarning("Not enough cash to buy: " + car.carName);
         }
-    }
-
-
-
-    public void SelectCar()
-    {
-        CarData car = availableCars[currentIndex];
-        PlayerPrefs.SetString("SelectedCarID", car.carID);
-        PlayerPrefs.Save();
-        Debug.Log("Car selected: " + car.carName);
     }
 }
