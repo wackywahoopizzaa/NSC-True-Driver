@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71e94d8e65f8c4087906b95373143d, type: 3}
   m_Name: Mission1
   m_EditorClassIdentifier: 
-  missionName: Cargo Delivery (Tutorial)
-  missionDescription: Deliver the Cargo
+  missionName: Tutorial
+  description: Deliver the package
   sceneToLoad: Main Game

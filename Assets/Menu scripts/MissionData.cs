@@ -1,9 +1,9 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewMission", menuName = "Mission")]
+[CreateAssetMenu(fileName = "NewMission", menuName = "Mission/MissionData")]
 public class MissionData : ScriptableObject
 {
     public string missionName;
-    public string missionDescription;
+    public string description;
     public string sceneToLoad;
 }
