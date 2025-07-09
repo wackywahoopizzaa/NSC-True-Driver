@@ -25,7 +25,7 @@ public class GarageCarLoader : MonoBehaviour
 
             if (isOwned)
                 ownedCars.Add(car);
-                Debug.Log("Checking ownership for: " + car.name + " → " + PlayerPrefs.GetInt("CarOwned_" + car.name, 0));
+            Debug.Log("Checking ownership for: " + car.name + " → " + PlayerPrefs.GetInt("CarOwned_" + car.name, 0));
 
             car.SetActive(false); // Hide all cars at first
         }
@@ -65,4 +65,15 @@ public class GarageCarLoader : MonoBehaviour
         currentIndex = (currentIndex - 1 + ownedCars.Count) % ownedCars.Count;
         ownedCars[currentIndex].SetActive(true);
     }
+    public void SelectCurrentCar()
+    {
+    if (ownedCars.Count == 0) return;
+
+    string selectedCarID = ownedCars[currentIndex].name;
+    PlayerPrefs.SetString("SelectedCarID", selectedCarID);
+    PlayerPrefs.Save();
+
+    Debug.Log("Car selected: " + selectedCarID);
+    }
+
 }

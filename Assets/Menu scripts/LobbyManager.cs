@@ -17,4 +17,8 @@ public class LobbyManager : MonoBehaviour
     {
         SceneManager.LoadScene("MissionMap");
     }
+    public void OpenMainGame()
+    {
+        SceneManager.LoadScene("Main Game");
+    }
 }
