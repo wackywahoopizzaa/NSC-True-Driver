@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   missionName: Tutorial
   description: Deliver the package
-  sceneToLoad: Main Game
+  sceneToLoad: Tutorial

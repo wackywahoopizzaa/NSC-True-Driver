@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Game Scene/MissionMap.unity
     guid: 02d3e3f31b065dc4da932161b25833b4
   - enabled: 1
+    path: Assets/Game Scene/Tutorial.unity
+    guid: 50a60ad721bb7bb4dacaec23681d04d5
+  - enabled: 1
     path: Assets/Game Scene/Main Game.unity
     guid: 92c4c829c830de64e8f7edca16fb8873
   m_configObjects:
