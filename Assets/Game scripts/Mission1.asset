@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d71e94d8e65f8c4087906b95373143d, type: 3}
+  m_Name: Mission1
+  m_EditorClassIdentifier: 
+  missionName: Tutorial
+  description: Deliver the package
+  missionImage: {fileID: 0}
+  sceneToLoad: Tutorial
+  objectives:
+  - objectiveName: Deliver the package
+    targetPoint: {fileID: 8047943017883368364, guid: 13691ba85b63cf34d82d4eca113af4f6, type: 3}
+    isCompleted: 1
+  - objectiveName: Deliver the package 2
+    targetPoint: {fileID: 927370050996282190, guid: 7bb7b88f6c8c1cf46928d0109be67358, type: 3}
+    isCompleted: 1
+  - objectiveName: Deliver the package 2
+    targetPoint: {fileID: 5680628121606456723, guid: 216962b3565a727489ca4b3f005dab68, type: 3}
+    isCompleted: 1
