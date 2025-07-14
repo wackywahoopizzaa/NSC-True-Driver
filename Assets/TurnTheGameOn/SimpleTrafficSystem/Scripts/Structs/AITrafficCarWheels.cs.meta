@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a6651be85d060254187eabddf80e2c23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Structs/AITrafficCarWheels.cs
+  uploadId: 582714

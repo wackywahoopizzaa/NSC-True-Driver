@@ -69,7 +69,7 @@ public class CashManager : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.T)) // Press T to add test money
         {
             AddCash(1000000); // Adds 1000 cash for testing
-            Debug.Log("Test cash added: 1000");
+            Debug.Log("Test cash added: 1000000");
         }
 }
 

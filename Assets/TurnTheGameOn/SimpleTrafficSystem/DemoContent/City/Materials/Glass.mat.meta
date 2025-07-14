@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dbab782e27374751a9120c014f349923
+timeCreated: 1529643604
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Materials/Glass.mat
+  uploadId: 582714

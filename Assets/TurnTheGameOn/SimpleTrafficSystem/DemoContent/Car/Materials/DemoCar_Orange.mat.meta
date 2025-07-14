@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63668203293b329498e738deb80cef43
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/Car/Materials/DemoCar_Orange.mat
+  uploadId: 582714

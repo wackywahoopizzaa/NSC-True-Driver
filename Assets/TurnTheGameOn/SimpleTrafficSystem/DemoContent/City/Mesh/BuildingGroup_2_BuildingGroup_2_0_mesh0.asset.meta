@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c50cf699bd94a59a412f248d468a4f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Mesh/BuildingGroup_2_BuildingGroup_2_0_mesh0.asset
+  uploadId: 582714

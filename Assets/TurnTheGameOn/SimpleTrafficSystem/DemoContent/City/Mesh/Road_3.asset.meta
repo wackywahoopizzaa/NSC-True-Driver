@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f06cf36756614e2ea09993fb8698273d
+timeCreated: 1529037877
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Mesh/Road_3.asset
+  uploadId: 582714

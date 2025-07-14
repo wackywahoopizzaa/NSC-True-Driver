@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e4c6e2eaa93c4bbc943634ddd3294312
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/Primary/AITrafficLightManager.prefab
+  uploadId: 582714

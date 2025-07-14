@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 160785b1e4b840238dc4c92aec7bc086
+timeCreated: 1529255950
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Mesh/Concrete_0.asset
+  uploadId: 582714

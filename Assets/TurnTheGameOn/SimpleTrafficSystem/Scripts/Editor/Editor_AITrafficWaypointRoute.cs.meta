@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 27434b2f33004e338d857c003114bc11
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Editor/Editor_AITrafficWaypointRoute.cs
+  uploadId: 582714

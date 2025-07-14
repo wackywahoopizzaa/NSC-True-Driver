@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b9ee00891b6ad864f897768d17645243
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Jobs/AITrafficCarPositionJob.cs
+  uploadId: 582714

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d36982f72442fc74ab730c59e0801e9c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Structs/AITrafficPoolEntry.cs
+  uploadId: 582714

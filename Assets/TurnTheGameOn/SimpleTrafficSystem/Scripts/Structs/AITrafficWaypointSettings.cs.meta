@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c2bbfb39bbbc1c14bb5d85f0e5d44e5f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Structs/AITrafficWaypointSettings.cs
+  uploadId: 582714

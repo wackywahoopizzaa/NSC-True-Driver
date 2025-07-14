@@ -8,6 +8,7 @@ public class MissionData : ScriptableObject
     public Sprite missionImage;
     public string sceneToLoad;
     public Objective[] objectives;
+     public int rewardAmount;
 }
 
 [System.Serializable]

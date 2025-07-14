@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5264bfc256584b94db757e11d0a50448
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/AITrafficCar_Red.prefab
+  uploadId: 582714

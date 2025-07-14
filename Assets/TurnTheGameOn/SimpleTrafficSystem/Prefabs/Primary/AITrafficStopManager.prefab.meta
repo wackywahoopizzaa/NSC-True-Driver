@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92b943d61e65c8741aa94cf25311f743
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/Primary/AITrafficStopManager.prefab
+  uploadId: 582714

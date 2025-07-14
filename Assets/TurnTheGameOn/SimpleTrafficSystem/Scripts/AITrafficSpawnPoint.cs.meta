@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: d37a86372ed96634aa3954699773eb0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - waypoint: {instanceID: 0}
+  - runtimeMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/AITrafficSpawnPoint.cs
+  uploadId: 582714

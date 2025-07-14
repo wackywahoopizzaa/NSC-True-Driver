@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 39a92cdef6d57b749938e8af2099fb51
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/Primary/SplineRouteCreator.prefab
+  uploadId: 582714

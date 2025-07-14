@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 21e18bdefd3241ab9236c6165b2d1a78
+timeCreated: 1529258072
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Mesh/Building_28.asset
+  uploadId: 582714

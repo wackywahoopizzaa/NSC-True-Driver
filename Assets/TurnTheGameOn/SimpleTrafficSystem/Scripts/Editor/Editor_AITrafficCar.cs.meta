@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f577bdbc2c1745c2afa6c639333e50e3
+timeCreated: 1486142033
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Scripts/Editor/Editor_AITrafficCar.cs
+  uploadId: 582714

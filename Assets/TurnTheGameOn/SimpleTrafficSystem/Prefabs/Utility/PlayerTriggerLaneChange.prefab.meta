@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2de01e2a1a0926949b6979afd67654b9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/Utility/PlayerTriggerLaneChange.prefab
+  uploadId: 582714

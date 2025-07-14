@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cba2bea4bea1ae74aa99499cc04f7b4d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/Primary/YieldTrigger.prefab
+  uploadId: 582714

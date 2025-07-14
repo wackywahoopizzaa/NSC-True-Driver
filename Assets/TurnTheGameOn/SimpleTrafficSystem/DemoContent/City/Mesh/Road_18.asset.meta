@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 14e67ec13c18481ba339ea689baa20a0
+timeCreated: 1529040960
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/DemoContent/City/Mesh/Road_18.asset
+  uploadId: 582714

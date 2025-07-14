@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 405ed787b2cbad34c9dd867072d5ae7a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/AITrafficCar_White.prefab
+  uploadId: 582714

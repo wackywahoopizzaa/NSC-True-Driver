@@ -144,6 +144,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 2f3a07b182aa0c540b0503dda207f8bb, type: 2}
   - {fileID: 11400000, guid: 77219d79bbb0b414bbc165652e6df3df, type: 2}
+  - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -819,7 +820,10 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Standalone: MVC_PRO
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Standalone: MVC_PRO;CROSS_PLATFORM_INPUT;SimpleTrafficSystem
+    Windows Store Apps: MOBILE_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

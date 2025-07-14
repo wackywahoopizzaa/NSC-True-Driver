@@ -23,6 +23,7 @@ MonoBehaviour:
   - objectiveName: Deliver the package 2
     targetPoint: {fileID: 927370050996282190, guid: 7bb7b88f6c8c1cf46928d0109be67358, type: 3}
     isCompleted: 1
-  - objectiveName: Deliver the package 2
+  - objectiveName: Deliver the package 3
     targetPoint: {fileID: 5680628121606456723, guid: 216962b3565a727489ca4b3f005dab68, type: 3}
     isCompleted: 1
+  rewardAmount: 10000

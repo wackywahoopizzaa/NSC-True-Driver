@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4fa72858a3a144b883ba6761eb90cf06
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159402
+  packageName: Simple Traffic System
+  packageVersion: 1.0.60
+  assetPath: Assets/TurnTheGameOn/SimpleTrafficSystem/Prefabs/AITrafficCar__Random.prefab
+  uploadId: 582714
