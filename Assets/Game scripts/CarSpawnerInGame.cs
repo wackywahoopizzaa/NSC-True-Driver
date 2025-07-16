@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CarSpawner : MonoBehaviour
 {
-    public GameObject[] allCars; // Drag all car prefabs from the scene into this array
+    public GameObject[] allCars; 
 
     void Start()
     {

@@ -5,7 +5,7 @@ public class AutoTrafficSetController : MonoBehaviour
     public PhaseState currentState = PhaseState.Stop;
 
     [Header("Renderer to Apply Texture To")]
-    public Renderer targetRenderer; // The Renderer on the traffic light model
+    public Renderer targetRenderer; 
 
     [Header("Light Textures")]
     public Texture greenTexture;

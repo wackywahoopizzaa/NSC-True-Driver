@@ -7,21 +7,29 @@ public class SignInfoManager : MonoBehaviour
     public GameObject signInfoPanel;
     public TextMeshProUGUI titleText;
     public TextMeshProUGUI descriptionText;
+    public Image signImage; // 🆕 Add this in Inspector
     public Button continueButton;
 
     private bool isShowingInfo = false;
 
- void Start()
-{
-    if (continueButton != null)
-        continueButton.onClick.AddListener(CloseInfo);
-}
+    void Start()
+    {
+        if (continueButton != null)
+            continueButton.onClick.AddListener(CloseInfo);
+    }
 
-
-    public void ShowSignInfo(string title, string description)
+    // 🆕 Overloaded method with image
+    public void ShowSignInfo(string title, string description, Sprite imageSprite)
     {
         titleText.text = title;
         descriptionText.text = description;
+
+        if (signImage != null)
+        {
+            signImage.sprite = imageSprite;
+            signImage.gameObject.SetActive(true);
+        }
+
         signInfoPanel.SetActive(true);
         Time.timeScale = 0f;
         isShowingInfo = true;

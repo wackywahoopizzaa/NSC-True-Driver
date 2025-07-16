@@ -23,7 +23,7 @@ public class StandaloneSpeedLimitDetector : MonoBehaviour
 
     void Update()
     {
-        // Look for vehicle tagged "Player"
+        
         GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
         if (playerVehicle != null)
         {
@@ -34,11 +34,11 @@ public class StandaloneSpeedLimitDetector : MonoBehaviour
             currentVehicleRb = null;
         }
 
-        // Skip if missing vehicle or detectionManager
+        
         if (currentVehicleRb == null || detectionManager == null)
             return;
 
-        // Speed check logic
+        
         checkCooldown -= Time.deltaTime;
         if (checkCooldown <= 0f)
         {
@@ -67,7 +67,7 @@ public class StandaloneSpeedLimitDetector : MonoBehaviour
         }
     }
 
-    // These methods are called by SpeedLimitZone trigger
+    
     public void UpdateSpeedLimit(float newLimit)
     {
         currentSpeedLimit = newLimit;

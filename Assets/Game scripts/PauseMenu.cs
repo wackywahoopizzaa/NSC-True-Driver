@@ -30,17 +30,17 @@ public class PauseManager : MonoBehaviour
         optionsPanel.SetActive(false);
         helpPanel.SetActive(false);
 
-        // Hook up pause menu buttons
+        
         resumeButton.onClick.AddListener(ResumeGame);
         returnToLobbyButton.onClick.AddListener(ReturnToLobby);
         optionsButton.onClick.AddListener(OpenOptions);
         helpButton.onClick.AddListener(OpenHelp);
 
-        // Hook up back buttons
+        
         backFromOptionsButton.onClick.AddListener(CloseOptions);
         backFromHelpButton.onClick.AddListener(CloseHelp);
 
-        // Hook up sliders
+        
         masterVolumeSlider.onValueChanged.AddListener(SetMasterVolume);
         musicVolumeSlider.onValueChanged.AddListener(SetMusicVolume);
         sfxVolumeSlider.onValueChanged.AddListener(SetSFXVolume);
@@ -109,18 +109,18 @@ public class PauseManager : MonoBehaviour
     // Volume Controls
     void SetMasterVolume(float value)
     {
-        AudioListener.volume = value; // Controls global volume
+        AudioListener.volume = value; 
     }
 
     void SetMusicVolume(float value)
     {
-        // You’ll need to apply this to your music AudioSource manually
+        
         Debug.Log("Set music volume to: " + value);
     }
 
     void SetSFXVolume(float value)
     {
-        // Apply this to your SFX sources manually
+        
         Debug.Log("Set SFX volume to: " + value);
     }
 }
