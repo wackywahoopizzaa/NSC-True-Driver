@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class CarLoader : MonoBehaviour
 {
-    public List<GameObject> carModelsInScene; // Drag all car GameObjects placed in the scene here
+    public List<GameObject> carModelsInScene; 
 
     void Start()
     {

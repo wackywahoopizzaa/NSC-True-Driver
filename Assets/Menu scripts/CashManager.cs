@@ -56,19 +56,19 @@ public class CashManager : MonoBehaviour
         currentCash = PlayerPrefs.GetInt("PlayerCash", 0); // Default to 0
     }
 
-    // Optional: for debugging/resetting
+    
     public void ResetCash()
     {
         currentCash = 0;
         SaveCash();
         UIManager.Instance?.UpdateCashUI(currentCash);
     }
-    // For testing only: add cash by pressing a key
+    
     void Update()
     {
     if (Input.GetKeyDown(KeyCode.T)) // Press T to add test money
         {
-            AddCash(1000000); // Adds 1000 cash for testing
+            AddCash(1000000); 
             Debug.Log("Test cash added: 1000000");
         }
 }

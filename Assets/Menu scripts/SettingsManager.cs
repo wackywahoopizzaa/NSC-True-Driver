@@ -14,9 +14,5 @@ public class SettingsManager : MonoBehaviour
         // Load volume
         float savedVolume = PlayerPrefs.GetFloat("Volume", 1f);
         AudioListener.volume = savedVolume;
-
-        // Load graphics quality
-        int savedQuality = PlayerPrefs.GetInt("GraphicsQuality", QualitySettings.GetQualityLevel());
-        QualitySettings.SetQualityLevel(savedQuality);
     }
 }

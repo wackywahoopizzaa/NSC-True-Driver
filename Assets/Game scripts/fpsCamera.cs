@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FirstPersonCarCamera : MonoBehaviour
 {
-    public Transform cameraTransform;   // Assign the camera (child of this object)
+    public Transform cameraTransform;   
     public float mouseSensitivity = 3f;
     public float minPitch = -60f;
     public float maxPitch = 60f;

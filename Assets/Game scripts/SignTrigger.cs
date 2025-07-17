@@ -7,7 +7,7 @@ public class SignTrigger : MonoBehaviour
     [TextArea]
     public string signDescription = "This sign means you must stop completely and yield to traffic before proceeding.";
 
-    public Sprite signSprite; // <-- NEW FIELD to assign your image in Inspector
+    public Sprite signSprite; 
 
     private bool hasBeenShown = false;
 
@@ -18,7 +18,7 @@ public class SignTrigger : MonoBehaviour
             SignInfoManager manager = FindObjectOfType<SignInfoManager>();
             if (manager != null && !manager.IsShowingInfo())
             {
-                manager.ShowSignInfo(signTitle, signDescription, signSprite); // <-- pass the sprite
+                manager.ShowSignInfo(signTitle, signDescription, signSprite); 
                 hasBeenShown = true;
             }
         }

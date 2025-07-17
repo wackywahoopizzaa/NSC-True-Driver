@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class IntroLoader : MonoBehaviour
 {
-    public float introDuration = 5f; // seconds before auto-transition
+    public float introDuration = 5f; 
     public Button skipButton;
     private bool hasSkipped = false;
 
@@ -15,7 +15,7 @@ public class IntroLoader : MonoBehaviour
             skipButton.onClick.AddListener(SkipIntro);
         }
 
-        // Start automatic transition
+        
         Invoke("LoadMainMenu", introDuration);
     }
 

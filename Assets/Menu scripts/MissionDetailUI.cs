@@ -26,7 +26,7 @@ public class MissionDetailUI : MonoBehaviour
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             PlayerPrefs.SetString("TargetScene", sceneToLoad);
-            SceneManager.LoadScene("Loading Screen"); // Name of your loading screen scene
+            SceneManager.LoadScene("Loading Screen"); 
         }
     }
 

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LobbyCarSwitcher : MonoBehaviour
 {
-    public GameObject[] cars;       // Assign car models in Inspector
+    public GameObject[] cars;       
     private int currentCarIndex = 0;
 
     void Start()
