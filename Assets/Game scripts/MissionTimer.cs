@@ -15,7 +15,6 @@ public class MissionTimer : MonoBehaviour
     {
         timeRemaining = missionDuration;
         gameOverUI.SetActive(false);
-        Time.timeScale = 1f; 
     }
 
     void Update()
@@ -50,8 +49,9 @@ public class MissionTimer : MonoBehaviour
 
     public void RetryMission()
     {
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        AudioListener.volume = 1f;
     }
 
     public void ReturnToMainMenu()

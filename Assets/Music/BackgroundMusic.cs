@@ -5,8 +5,8 @@ public class BackgroundMusic : MonoBehaviour
 {
     public static BackgroundMusic Instance;
 
-    public AudioClip defaultMusic;      // Main menu, lobby, etc.
-    public AudioClip tutorialMusic;     // Unique music for tutorial
+    public AudioClip defaultMusic;
+    public AudioClip tutorialMusic;
 
     private AudioSource audioSource;
 
@@ -31,6 +31,10 @@ public class BackgroundMusic : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        if (scene.name == "MainLobby" || scene.name == "Main Menu")
+    {
+        AudioListener.volume = 1f;
+    }
         PlayMusicForScene(scene.name);
     }
 

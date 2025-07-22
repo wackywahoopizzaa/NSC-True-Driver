@@ -12,7 +12,7 @@ public class CollisionPenalty : MonoBehaviour
     {
         if (!canBePenalized) return;
 
-        if (collision.gameObject.CompareTag("Traffic"))
+        if (collision.gameObject.CompareTag("AICar"))
         {
             Debug.Log("Player collided with a traffic vehicle!");
 

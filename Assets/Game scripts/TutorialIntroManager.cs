@@ -1,50 +1,33 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TutorialIntroManager : MonoBehaviour
 {
-    public GameObject controlsPanel; 
+    public GameObject controlsPanel;
     private const string ControlsSeenKey = "HasSeenTutorialControls";
 
     void Start()
     {
-        if (PlayerPrefs.GetInt(ControlsSeenKey, 0) == 0)
-        {
-            
-            if (controlsPanel != null)
-                controlsPanel.SetActive(true);
+        // Check if the player has seen the tutorial before
+        bool hasSeen = PlayerPrefs.GetInt(ControlsSeenKey, 0) == 1;
 
-            Time.timeScale = 0f;
-            AudioListener.volume = 0f;
+        if (!hasSeen && controlsPanel != null)
+        {
+            controlsPanel.SetActive(true);
         }
-        else
+        else if (controlsPanel != null)
         {
-            
-            if (controlsPanel != null)
-                controlsPanel.SetActive(false);
-
-            Time.timeScale = 1f;
-            AudioListener.volume = 1f;
+            controlsPanel.SetActive(false);
         }
     }
 
+    // Called by the "Continue" button
     public void OnContinuePressed()
     {
-        
         PlayerPrefs.SetInt(ControlsSeenKey, 1);
         PlayerPrefs.Save();
 
-        
         if (controlsPanel != null)
             controlsPanel.SetActive(false);
-
-        Time.timeScale = 1f;
-        AudioListener.volume = 1f;
     }
 
-    
-    public void ResetTutorialSeenFlag()
-    {
-        PlayerPrefs.DeleteKey(ControlsSeenKey);
-    }
 }
