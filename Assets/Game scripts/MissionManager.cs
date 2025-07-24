@@ -85,4 +85,9 @@ public class MissionManager : MonoBehaviour
     {
         return currentReward;
     }
+    public int GetCurrentObjectiveIndex()
+{
+    return currentObjective;
+}
+
 }
